@@ -80,13 +80,35 @@ a.w3-light-green .fa-th {
   background-color: #547330 !important;
 }
 
+/* nabvar logo*/
+.ea-navbar-logo {
+    width: 40px;
+    height: auto;
+    margin-top: -30px;
+    display: block;
+}
+
+.ea-navbar-brand {
+  text-decoration: none;
+}
+
+.ea-navbar-brand > span {
+    margin-left: 64px;
+    margin-top: 7px;
+    display: block;
+}margin-top: 3px;
+
 </style>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">EA BYTECODE</a>
+    <a href="#" class="w3-bar-item ea-navbar-brand">
+      <span> EA BYTECODE </span>
+      <img src="images/logo_eabc.png" class="ea-navbar-logo">
+    </a>
+    <!-- <a href="#home" class="w3-bar-item w3-button w3-wide">EA BYTECODE</a> -->
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-file"></i> ABOUT</a>
