@@ -20,6 +20,12 @@ body {
 .progress {
   height: 20px;
 }
+
+.skill-title {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 5px;
+}
 /*p {
   color: #797979;
 }*/
