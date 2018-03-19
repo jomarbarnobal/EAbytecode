@@ -17,7 +17,7 @@
     <div class="navbar-fixed"> <!-- fixed nav bar -->
       <nav class=" white">
         <div class="nav-wrapper container">
-          <a href="#!" class="brand-logo">
+          <a href="#home" class="brand-logo">
               <img src="images/logo_eabc.png" class="ea-logo">
               <span class="flow-text hide-on-med-and-down"> EA BYTECODE</span>
           </a>
@@ -38,14 +38,13 @@
             <li><a href="#fund">fund</a></li>
             <li><a href="#contact">contact</a></li>
           </ul>
-
         </div>
       </nav>
     </div>
   </header>
   
   <main> <!-- Main Content of a project-->
-    <div class="parallax-container"><!-- parallax content -->
+    <div class="parallax-container" id="home"><!-- parallax content -->
       <div class="section no-pad-bot">
         <div class="container">
           <br><br>
@@ -66,7 +65,7 @@
 
     <!-- content -->
     <!-- about section -->
-    <div class="section">
+    <div class="section" id="about">
         <!--   Icon Section   -->
         <div class="row pad-content container">
           <div class="col s12 center">
@@ -111,7 +110,7 @@
         </div>
     </div>
     <!-- work section -->
-    <div class="section grey lighten-1">
+    <div class="section grey lighten-1" id="project">
       <div class="row pad-content container">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -153,7 +152,7 @@
         </div>
     </div>
       <!-- team section -->
-    <div class="section">
+    <div class="section" id="team">
       <div class="row pad-content container">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -226,7 +225,7 @@
       </div>
     </div>
     <!-- team skill section -->
-    <div class="section grey lighten-1">
+    <div class="section grey lighten-1" id="team">
       <div class="row pad-content container">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -268,7 +267,7 @@
       </div>
     </div>
     <!-- fund section -->
-    <div class="section">
+    <div class="section" id="fund">
       <div class="row pad-content container">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -314,7 +313,7 @@
       </div>
     </div>
     <!-- contact section -->
-      <div class="section grey lighten-1">
+    <div class="section grey lighten-1" id="contact">
       <div class="row pad-content container">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -353,8 +352,8 @@
                 </div>
               </div>
               <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    <i class="material-icons right">send</i>
-  </button>
+                <i class="material-icons right">send</i>
+                </button>
             </form>
           </div>
         </div>
@@ -404,6 +403,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/scroll.js"></script>
     <script>
 function myMap()
 {
