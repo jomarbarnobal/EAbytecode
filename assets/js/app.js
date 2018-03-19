@@ -3,9 +3,8 @@
 $(document).ready(function(){
   // Initialize Parallax js
   $('.parallax').parallax();
+
+  // Initialize sideNav
+  $(".button-collapse").sideNav();
 });
 
-$(document).ready(function(){
-    // Initialize sideNav
-  $(".button-collapse").sideNav();
-})

@@ -4,9 +4,27 @@ html {
 }
 
 body {
-  color: #eee;
+  color: #797979;
 }
 
+
+/*icon color */
+.red-text {
+  color: #e9644c !important;  
+}
+
+.grey.lighten-1 {
+    background-color: rgba(0, 0, 0, 0.04) !important;
+}
+
+/*p {
+  color: #797979;
+}*/
+
+.pad-content {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
 .parallax-container {
       /*parallax height in container*/
       height: 600px;
