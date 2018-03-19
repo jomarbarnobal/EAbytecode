@@ -17,6 +17,9 @@ body {
     background-color: rgba(0, 0, 0, 0.04) !important;
 }
 
+.progress {
+  height: 20px;
+}
 /*p {
   color: #797979;
 }*/
