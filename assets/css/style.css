@@ -1,0 +1,64 @@
+/*Custom style for EA Bytecode*/
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+body {
+  color: #eee;
+}
+
+.parallax-container {
+      /*parallax height in container*/
+      height: 600px;
+} 
+
+/*NAVBAR BRAND/LOGO  CSS STYLE*/
+nav ul li a{
+  color: #e75237;
+  text-transform: uppercase;
+}
+
+nav .brand-logo {
+  font-size: 1.1 rem;
+}
+
+nav .button-collapse i {
+ color: #e75237; 
+}
+
+#sidenav-overlay {
+  z-index: 2;
+}
+
+.brand-logo .ea-logo {
+  width: 45px;
+  height: auto;
+  margin-top: 11px;
+  position: absolute;
+  left: -13px;
+}
+
+.brand-logo span {
+margin-left: 64px;
+color: #e75237;
+}
+
+/*FOTTER CSS STYLE*/
+.page-footer {
+  background-color: #e75237;
+}
+
+
+@media only screen and (max-width : 992px) {
+  /*fit parallax image in views*/
+  .parallax img {
+    max-height: 130%; /* or a little bit higher */
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /*fit parallax image in views*/
+  .parallax img {
+    max-height: 170%; /* or higher percentages. It's up to your taste */
+  }
+}
