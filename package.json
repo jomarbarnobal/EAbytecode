@@ -1,0 +1,19 @@
+{
+  "name": "eabytecode",
+  "version": "1.0.0",
+  "description": "MASTER BRANCH",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jomarbarnobal/EAbytecode.git"
+  },
+  "author": "jomar barnobal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jomarbarnobal/EAbytecode/issues"
+  },
+  "homepage": "https://github.com/jomarbarnobal/EAbytecode#readme"
+}
